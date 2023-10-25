@@ -4,90 +4,92 @@
   /* This is the parent of the activity 1 boxes. */
   display: grid;
         grid-template-columns: 1fr 1fr;
-        justify-items: center;
+        justify-content: center;
+        align-content: center;
+        
         gap: 20px;
 }
 .red1 { 
-width: 100%; 
-height: 100px; 
+width: 150px; 
+height: 150px; 
 background-color: red; 
-grid-column: 1/3;
 } 
 .green1 {
-width: 200px; 
-height: 200px; 
+width: 150px; 
+height: 150px; 
 background-color: green; 
 } 
 .yellow1 {
-width: 200px; 
-height: 200px; 
+width: 150px; 
+height: 150px; 
 background-color: gold; 
 } 
 .blue1 {
-width: 100%; 
-height: 100px; 
+width: 150px; 
+height: 150px; 
 background-color: blue; 
-grid-column: 1/3;
 } 
 /* Activity 2 styles */ 
 .content2 {
   /* This is the parent of the activity 2 boxes. */
   display: grid;
         grid-template-columns: 1fr 1fr;
-        justify-items: center;
-        gap: 20px;
+      
+        justify-content: center;
+        align-content: center; 
+      
+        
 }
 .red2 {
-width: 100%; 
-height: 100px; 
+width: 150px; 
+height: 150px; 
 background-color: red;
-grid-column: 1/3;
 } 
 .green2 { 
-width: 200px; 
-height: 200px; 
+width: 150px; 
+height: 150px; 
 background-color: green; 
 } 
 .yellow2 {
-width: 200px; 
-height: 200px; 
+width: 150px; 
+height: 150px; 
 background-color: gold; 
 } 
 .blue2 {
-width: 100%; 
-height: 100px; 
+width: 150px; 
+height: 150px; 
 background-color: blue;
-grid-column: 1/3;
 } 
 /* Activity 3 styles */ 
 .content3 {
   /* This is the parent of the activity 3 boxes. */
   display: grid;
         grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        align-content: center;
         justify-items: center;
+        align-items: center;
         gap: 20px;
 }
 .red3 {
-width: 100%; 
-height: 100px; 
+width: 150px; 
+height: 150px; 
 background-color: red;
-grid-column: 1/3;
 } 
 .green3 {
-width: 200px; 
-height: 200px; 
+width: 150px; 
+height: 150px; 
 background-color: green;
 } 
 .yellow3 {
-width: 200px; 
-height: 200px; 
+width: 150px; 
+height: 150px; 
 background-color: gold; 
 } 
 .blue3 {
-width: 100%;
-height: 100px; 
-background-color: blue;
-grid-column: 1/3; 
+width: 150px;
+height: 150px; 
+background-color: blue; 
 } 
 /* Activity 4 styles */ 
 .content4 {
