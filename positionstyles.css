@@ -1,7 +1,5 @@
-/* CSS - Name: "positionstyles.css" */
-/* Activity 1 styles */
+
 .content1 {
-  /* This is the parent of the activity 1 boxes. */
   display: grid;
         grid-template-columns: 1fr 1fr;
         justify-content: center;
@@ -28,10 +26,8 @@ background-color: gold;
 width: 150px; 
 height: 150px; 
 background-color: blue; 
-} 
-/* Activity 2 styles */ 
+}
 .content2 {
-  /* This is the parent of the activity 2 boxes. */
   display: grid;
         grid-template-columns: 1fr 1fr;
       
@@ -60,9 +56,8 @@ width: 150px;
 height: 150px; 
 background-color: blue;
 } 
-/* Activity 3 styles */ 
+
 .content3 {
-  /* This is the parent of the activity 3 boxes. */
   display: grid;
         grid-template-columns: 1fr 1fr;
         justify-content: center;

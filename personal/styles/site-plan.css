@@ -1,29 +1,29 @@
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a | */
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@300&family=Roboto+Slab&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,500&display=swap');
 
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #063970  ;
-  --secondary-color: #f85e00 ;
-  --accent1-color: #ffb563;
-  --accent2-color: #918450;
+  --primary-color: #e3b505  ;
+  --secondary-color: #95190c;
+  --accent1-color: #610345;
+  --accent2-color: #107e7d;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "Roboto Slab";
-  --paragraph-font: Josefin Slab, serif, serif;
+  --heading-font: "Roboto";
+  --paragraph-font: Italic, 'Roboto', sans-serif;
 
-  --headline-color-on-white: #020305; 
-  --headline-color-on-color: #ffb563; 
-  --paragraph-color-on-white: #063970;  
-  --paragraph-color-on-color: #ffb563;  
-  --paragraph-background-color: #063970  ;
-  --nav-link-color: #063970;
-  --nav-background-color: #f85e00;
-  --nav-hover-link-color: #918450;
-  --nav-hover-background-color: #063970;
+  --headline-color-on-white: #044b7f; 
+  --headline-color-on-color: #e3b505; 
+  --paragraph-color-on-white: #95190c;  
+  --paragraph-color-on-color: #610345;  
+  --paragraph-background-color:  #107e7d ;
+  --nav-link-color: #107e7d;
+  --nav-background-color: #95190c;
+  --nav-hover-link-color: #610345;
+  --nav-hover-background-color: #107e7d;
 }
 
 
