@@ -83,8 +83,24 @@ header {
           margin: 0 auto;
           max-width: 1000px;
   }
-  .button-box {
-    background-color: #6f7364;
+  .button-box1 {
+    background-color: #f85e00;
+      padding: 10px;
+      grid-column: 1/1;
+      grid-row: 1/1;
+      box-shadow: 5px 5px 10px #6f7364;
+      display: block;
+    max-width: 100px;
+    display: flex;
+      justify-content: start;
+      align-content: start;
+      justify-items: start;
+      align-items: start;
+      gap: 100px;
+  }
+  
+  .button-box2 {
+    background-color: #f85e00;
       padding: 10px;
       grid-column: 1/1;
       grid-row: 1/1;
@@ -92,13 +108,15 @@ header {
       display: block;
       margin: 0 auto;
     max-width: 100px;
-    display: flex;
-      justify-content: center;
-      align-content: center;
-      justify-items: start;
-      align-items: start;
-      gap: 100px;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: end;
+    align-content: end;
+      justify-items: end;
+      align-items: end;
+      gap: 500px;
   }
+
   @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
