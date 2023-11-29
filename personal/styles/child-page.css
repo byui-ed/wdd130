@@ -1,3 +1,9 @@
+#child-page {
+    display: grid;
+    grid-template-columns: 50% 50% 50% 50% 50%;
+    grid-template-rows: 50% 50% 50% 50% 50%;
+ }
+
 header {
     background-color: #6f7364;
       padding: 25px 50px;
