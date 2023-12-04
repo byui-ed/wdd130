@@ -8,7 +8,7 @@
 header {
     background-color: #6f7364;
       padding: 25px 50px;
-      margin-top: 200px; 
+      margin-top: 05px; 
       display: grid;
       grid-template-columns: 150px auto;
       justify-items: start;
@@ -104,6 +104,8 @@ header {
       justify-items: start;
       align-items: start;
       gap: 100px;
+
+      padding: 8px;
   }
   
   .button-box2 {
@@ -122,6 +124,8 @@ header {
       justify-items: end;
       align-items: end;
       gap: 500px;
+
+      padding: 8px;
   }
 
   @media screen and (max-width: 900px) {
