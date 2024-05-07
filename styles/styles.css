@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 nav {
   background-color: steelblue;
   padding: 10px;  
@@ -45,8 +51,9 @@ aside img {
 }
 
 main img {
-    width: 150px;
+    width: 100px;
     height: auto;
+    margin: 0 0 1rem 1rem;
 }
 
 p {padding: 0;}
@@ -56,3 +63,30 @@ footer {
    border-top: 1px solid #000;
    text-align: center; 
 }
+
+/* class selector */
+.box {
+  margin: 1rem;
+  border: 1px solid rgba(0,0,0,.1);
+  padding: 1rem;
+  background-color: #add;
+  color: #000;
+}
+
+aside {
+  width: 20em;
+  text-align: center;
+  position: relative;
+}
+
+main img {
+  /* you most likely will have other declaration here */
+  float: right;
+}
+
+aside h2 {
+  position: absolute;
+  top: 20px;
+  left: 100px;
+}
+
