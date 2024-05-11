@@ -37,16 +37,34 @@ body {
   
 article {
   position: absolute;
-  top: 300px;
-  left: 700px;
+  top: 200px;
+  left: 800px;
+  float: right;
+  border: 1px solid steelblue;
+  padding: 2px; 
+  box-shadow: 0 0 30px gray;
+  margin: 1rem;
+  width: 20000
+  height: auto;
+  padding: 1rem;
+  background-color: #add;
+  color: #000;
 }
 
 .hero h1 {
   position: absolute;
-  top: 300px;
-  left: 500px;
+  top: 200px;
+  left: 640px;
+  border: 1px solid steelblue;
+  padding: 2px; 
+  box-shadow: 0 0 30px gray;
+  margin: 1rem;
+  width: 900
+  height: auto;
+  padding: 1rem;
+  background-color: #add;
+  color: #000;
 }
-
 
 
 main img {
