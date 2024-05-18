@@ -73,3 +73,84 @@ main img {
   margin: 0 0 1rem 1rem;
 
 }
+
+header {
+  background-color: #6f7364;
+  padding: 50px 70px;
+  margin-top: 01px; 
+  display: grid;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  align-content: start;
+  gap: 100px;
+  width: 1200px;
+  height: auto;
+  margin: 0 0 1rem 1rem;
+  
+}
+
+nav a {
+  margin: 1rem;
+  border: 1px solid rgba(0,0,0,.1);
+  padding: 1rem;
+  background-color: #add;
+  color: #000;
+  box-sizing: border-box;
+}
+
+figure {
+  background-color: #6f7364;
+  padding: 50px 70px;
+  margin-top: 01px; 
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  align-content: start;
+  gap: 100px;
+  width: 1200px;
+  height: auto;
+  margin: 0 0 1rem 1rem;
+  
+}
+
+section {
+  background-color: #6f7364;
+  padding: 50px 70px;
+  margin-top: 01px; 
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  align-content: start;
+  gap: 1px;
+  width: 1200px;
+  height: auto;
+  margin: 0 0 1rem 1rem;
+  
+}
+
+footer {
+  background-color: #6f7364;
+  padding: 25px 50px;
+  margin-top: 200px; 
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+  justify-content: end;
+  align-content: end;
+  justify-content: end;
+  align-content: end;
+  gap: 100px;
+  width: 1200px;
+  height: auto;
+  margin: 0 0 1rem 1rem;
+  
+}
+
+  
