@@ -44,7 +44,7 @@ article {
   padding: 2px; 
   box-shadow: 0 0 30px gray;
   margin: 1rem;
-  width: 20000
+  width: 20000;
   height: auto;
   padding: 1rem;
   background-color: #add;
@@ -59,7 +59,7 @@ article {
   padding: 2px; 
   box-shadow: 0 0 30px gray;
   margin: 1rem;
-  width: 900
+  width: 900;
   height: auto;
   padding: 1rem;
   background-color: #add;
@@ -85,10 +85,10 @@ header {
   justify-content: center;
   align-content: start;
   gap: 100px;
-  width: 1200px;
+  width: 1175px;
   height: auto;
   margin: 0 0 1rem 1rem;
-  
+
 }
 
 nav a {
@@ -137,7 +137,7 @@ section {
 footer {
   background-color: #6f7364;
   padding: 25px 50px;
-  margin-top: 200px; 
+  margin-top: 200px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -147,10 +147,47 @@ footer {
   justify-content: end;
   align-content: end;
   gap: 100px;
-  width: 1200px;
+  width: 1175px;
   height: auto;
   margin: 0 0 1rem 1rem;
-  
+
 }
 
   
+.employee-profiles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.profile {
+  margin: 20px;
+  width: 150px;
+}
+
+.profile img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.profile p {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+
+main {
+  float: right;
+}
+
+input  {
+  gap: 100px;
+  margin: 0 0 1rem 1rem;
+  width: 99px;
+  background-color: aquamarine;
+}
+
+iframe {
+border:0;
+}
